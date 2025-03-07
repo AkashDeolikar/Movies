@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body{
+    background-color: rgb(0,0,33);
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}   
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    height: 80px;
+    background-color: rgb(6, 6, 52);
+}
+
+nav .left{
+    color: #ff7200;
+    font-size: 30px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+    text-decoration: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease;
+}
+
+nav ul li a:hover{
+    color: #ff7200;
+    /* border-color: 2px solid #ff7200;
+    background-color: #ff7200; */
+}
+
+main hr{
+    border: 0;
+    background: #ff7200;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 35px 0;
+}
+
+.firstsection > div{
+    width: 30%;
+}
+
+.leftsection{
+    font-size: 3rem;
+    margin: 70px 0;
+}
+
+.leftsection .buttons{
+    padding: 20px 0;
+}
+.leftsection .btn{
+    padding: 12px;
+    background-color: #ff7200;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.rightsection img{
+    width: 80%;
+    /* margin: 50px 0; */
+}
+
+.purple{
+    color: blueviolet;
+}
+
+#element{
+    color: blueviolet;
+}
+
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondsection h1{
+    font-size: 25px;
+}
+
+.secondsection .box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0; 
+    display: flex;
+}
+
+.secondsection .vertical{
+    position: relative;
+    height: 93px;
+    width: 1px;
+    background-color: #ff7200;
+    margin: 0 100px;
+
+}
+.text-grey{
+    color: #ff7200;
+}
+
+.vertical-title{
+    position: relative;
+    top: 95px;
+    width: 150px;
+}
+
+.vertical-desc{
+    position: relative;
+    top: 100px;
+    color: #ff7200;
+    width: 150px;
+}
+
+footer{
+    background-color: black;
+}
+
+.footer{
+    align-items: center;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer > div{
+    width: 123px;
+}

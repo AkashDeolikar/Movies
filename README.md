@@ -1,0 +1,1 @@
+A Java full-stack application consists of a backend built with Java and a frontend developed using React. The application uses MongoDB for data storage and retrieval, making it a complete full-stack solution.
